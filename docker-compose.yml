@@ -1,0 +1,13 @@
+version: '3'
+services:
+  fakemetric:
+    build: .
+    env_file: .env
+    ports:
+      - "8000:8000"
+    command: ["python", "-u", "fakemetric.py", "--time", "$TIME"]
+    restart: unless-stopped
+
+
+
+
