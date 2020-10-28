@@ -20,7 +20,7 @@ FakeMetric - Prometheus Square Wave Generator
 optional arguments:
   -h, --help            show this help message and exit
   -p [PORT], --port [PORT]
-                        Metric listening port. Default is 8000.
+                        HTTP server listening port. Default is 8000.
   -t [TIME], --time [TIME]
                         Duration in seconds of each status (low, high).
                         Default is 60 seconds.
